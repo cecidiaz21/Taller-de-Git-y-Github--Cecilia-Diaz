@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+  <title>Tienda Online</title> 
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>MiTienda</h1>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#" onclick="toggleCart()">Carrito 🛒</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Descubre nuestros productos</h2>
+  <p>Ofertas exclusivas por tiempo limitado</p>
+  <button onclick="scrollToProducts()">Ver productos</button>
+</section>
+
+<section id="productos" class="products"></section>
+
+<div id="cart" class="cart">
+  <h2>Carrito</h2>
+  <div id="cart-items"></div>
+  <div class="cart-total">Total: $<span id="total">0</span></div>
+</div>
+
+<footer class="footer">© 2026 MiTienda - Todos los derechos reservados</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
