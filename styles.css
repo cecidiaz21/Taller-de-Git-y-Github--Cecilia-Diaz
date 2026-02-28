@@ -203,6 +203,30 @@
     }
 }
 
+/* --- BOTÓN VOLVER --- */
+.nav-volver {
+    margin-bottom: 25px;
+}
+
+.btn-volver {
+    display: inline-flex;
+    align-items: center;
+    color: #666666;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+.btn-volver:hover {
+    color: #111111; /* Se oscurece el texto */
+    background-color: #e2e2e2; /* Se oscurece un poco el fondo */
+    transform: translateX(-5px); /* Efecto sutil: se mueve un poquito hacia la izquierda indicando "Atrás" */
+}
+
 
 /*------------------------------------------------------------*/
 /*----------- FIN BLOQUE POLITICAS DE PRIVACIDAD -----------*/
