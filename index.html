@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
-  <title>Tienda Online</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Online</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -29,10 +29,31 @@
   <h2>Carrito</h2>
   <div id="cart-items"></div>
   <div class="cart-total">Total: $<span id="total">0</span></div>
+
+  <div class="cart-options">
+    <label>Forma de pago:
+      <select id="payment-method">
+        <option value="tarjeta">Tarjeta de crédito</option>
+        <option value="paypal">PayPal</option>
+        <option value="efectivo">Efectivo</option>
+      </select>
+    </label>
+    <label>Envío:
+      <select id="shipping-method">
+        <option value="estandar">Estándar</option>
+        <option value="express">Express</option>
+      </select>
+    </label>
+  </div>
+
+  <button id="checkout-btn">Finalizar compra</button>
 </div>
 
 <footer class="footer">
   <div class="footer-contenido">
+  <p>&copy; 2026 MiTienda - Todos los derechos reservados</p>
+  <a href="normas.html">Normas de la Comunidad</a>
+</footer>
 
   <div class="footer-bottom">
     <p>© 2026 MiTienda - Todos los derechos reservados.</p>
