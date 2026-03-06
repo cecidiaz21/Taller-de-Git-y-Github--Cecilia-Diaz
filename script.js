@@ -121,6 +121,7 @@
 
   renderProducts();
 
+
   // registro del botón de checkout
   document.addEventListener("DOMContentLoaded", () => {
     const btn = document.getElementById("checkout-btn");

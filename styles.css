@@ -146,6 +146,139 @@
       color: #fff;
       margin-top: 2rem;
     }
+  
+/*------------------------------------------------------------*/
+  /*----------- Bloque: POLÍTICAS DE PRIVACIDAD -----------*/
+/*------------------------------------------------------------*/
+
+.privacy-wrapper {
+    background-color: #f9f9f9; /* Fondo muy suave para que no canse la vista */
+    padding: 60px 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.privacy-container {
+    max-width: 800px; /* Ancho máximo para que las líneas no sean infinitas */
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.privacy-header {
+    text-align: center;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.privacy-header h1 {
+    font-size: 2.5rem;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+.last-updated {
+    color: #777777;
+    font-size: 0.95rem;
+}
+
+.privacy-content h2 {
+    font-size: 1.5rem;
+    color: #111111;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.privacy-content p {
+    color: #444444;
+    line-height: 1.8; /* Interlineado amplio para lectura cómoda */
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+}
+
+.privacy-content ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.privacy-content li {
+    color: #444444;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+.contact-list {
+    list-style-type: none; /* Quitamos las viñetas en la lista de contacto */
+    padding-left: 0;
+}
+
+/* --- BOTÓN VOLVER ARRIBA --- */
+.btn-back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none; /* Oculto por defecto, se muestra con JS */
+    width: 50px;
+    height: 50px;
+    background-color: #222222; /* Negro urbano */
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+.btn-back-to-top:hover {
+    background-color: #555555;
+    transform: translateY(-5px); /* Efecto de saltito al pasar el mouse */
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+    .privacy-container {
+        padding: 30px 20px;
+    }
+    
+    .privacy-header h1 {
+        font-size: 2rem;
+    }
+}
+
+/* --- BOTÓN VOLVER --- */
+.nav-volver {
+    margin-bottom: 25px;
+}
+
+.btn-volver {
+    display: inline-flex;
+    align-items: center;
+    color: #666666;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+.btn-volver:hover {
+    color: #111111; /* Se oscurece el texto */
+    background-color: #e2e2e2; /* Se oscurece un poco el fondo */
+    transform: translateX(-5px); /* Efecto sutil: se mueve un poquito hacia la izquierda indicando "Atrás" */
+}
+
+
+/*------------------------------------------------------------*/
+/*----------- FIN BLOQUE POLITICAS DE PRIVACIDAD -----------*/
+/*------------------------------------------------------------*/
 
     .footer a {
       color: #ff6a00;
